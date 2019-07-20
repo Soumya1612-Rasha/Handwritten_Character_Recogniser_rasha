@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-
+import os
+os.environ["TF_CPP_MIN_LOG_LEVEL"]="3"
 import numpy as np
 from keras.model import Sequential
 from keras.layers import Dense,Conv2D,MaxPooling2D,Flatten,BatchNormalization,Dropout

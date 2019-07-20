@@ -4,6 +4,8 @@ Created on Fri 19 21:54:21 2019
 
 @author: Soumya Suvra Ghosal
 """
+import os
+os.environ["TF_CPP_MIN_LOG_LEVEL"]="3"
 from keras.datasets import mnist
 import numpy as np
 import os.path as path
